@@ -17,6 +17,7 @@ h1:hover {
   background-color: beige;
   font-size: xx-large;
 }
+
 h2:hover {
   color: rgb(214, 214, 24);
 }
@@ -38,4 +39,10 @@ a {
 a:hover {
   color: rgb(51, 136, 153);
   font-size: x-large;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
