@@ -9,17 +9,19 @@ header {
 
 h1 {
   color: ghostwhite;
-  font-family: "Loved by the King", cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 65px;
   text-align: center;
 }
 
 ul {
   color: ghostwhite;
-  font-family: "Loved by the King", cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
 }
 
 p {
   color: ghostwhite;
-  font-family: "Loved by the King", cursive;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
 }
