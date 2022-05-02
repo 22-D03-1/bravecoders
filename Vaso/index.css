@@ -1,0 +1,41 @@
+body {
+  width: auto;
+  background-image: url(./thumbs_b_c_929793c3b75cdf78787f9abcb55c13b1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  color: rgb(139, 19, 23);
+  text-decoration-line: underline;
+  text-align: center;
+  font-size: 50px;
+  border-style: dashed;
+  border-color: blue;
+}
+h1:hover {
+  background-color: beige;
+  font-size: xx-large;
+}
+h2:hover {
+  color: rgb(214, 214, 24);
+}
+h2 {
+  font-size: xx-large;
+}
+
+p:hover {
+  color: brown;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+  font-size: x-large;
+}
+a {
+  font-size: xx-large;
+}
+a:hover {
+  color: rgb(51, 136, 153);
+  font-size: x-large;
+}
