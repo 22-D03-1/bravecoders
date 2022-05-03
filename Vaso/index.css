@@ -6,14 +6,16 @@ body {
   background-position: center;
 }
 h1 {
-  color: rgb(139, 19, 23);
-  text-decoration-line: underline;
+  color: rgb(250, 245, 245);
+  text-shadow: 5px 5px 5px;
+  text-decoration-line: none;
   text-align: center;
   font-size: 50px;
   border-style: solid;
-  border-color: rgb(151, 36, 26);
+  border-color: rgb(237, 220, 219);
 }
 h1:hover {
+  color: darkgrey;
   background-color: beige;
   font-size: xx-large;
 }
@@ -22,7 +24,10 @@ h2:hover {
   color: rgb(214, 214, 24);
 }
 h2 {
-  font-size: xx-large;
+  font-size: 50px;
+
+  border-bottom-style: outset;
+  border-bottom-width: 10px;
 }
 
 p:hover {
@@ -46,13 +51,24 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-img {
-  border-radius: 30px;
-}
+
 .art h1 {
   color: black;
   border-style: none;
 }
 .art p {
   color: burlywood;
+  font-size: xx-large;
+}
+img {
+  border-radius: 30px;
+}
+
+/* i frame zentrieren */
+
+iframe {
+  margin: 0 auto;
+  display: block;
+  height: 700px;
+  width: 1700px;
 }
