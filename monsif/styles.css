@@ -32,3 +32,6 @@ iframe {
 div {
     align-items: center;
 }
+div .img {
+    display: block;
+}
