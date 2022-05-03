@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 body > section {
-    border: 10px red solid;
+    border: 10px gray solid;
+    border-radius: 1%;
 }
 body {
     max-width: 800px;
@@ -14,7 +16,7 @@ body {
 
 img {
     border: 5px solid black;
-    border-radius: 3%;
+    border-radius: 1%;
 }
 button {
     border-style: none;
@@ -32,16 +34,10 @@ section {
 
 .htmltags {
     padding: auto;
-    border: 20px lightcoral solid;
-    background-color: lightcoral;
-    border-radius: 3%;
+    border: 20px gray solid;
+    background-color: gray;
     text-decoration: none;
     display: inline-block;
     text-align: center;
     color: black;
-}
-ul li {
-    display: flex;
-    text-size-adjust: 200%;
-    text-align: center;
 }
