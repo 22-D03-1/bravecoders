@@ -1,0 +1,34 @@
+body {
+  color: brown;
+  background-color: black;
+  margin-right: 420px;
+  font-size: xx-large;
+}
+
+.First {
+  background-color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+.Second {
+  background-color: blue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Third {
+  background-color: aquamarine;
+
+  font-style: italic;
+}
+a:hover {
+  color: yellow;
+  background-color: black;
+}
+.Forth {
+  background-color: greenyellow;
+  font-family: "Courier New", Courier, monospace;
+  border: 10px;
+  border-style: dashed;
+  border-color: red;
+}

@@ -1,0 +1,27 @@
+body {
+  background-image: url("wallpaperbetter\(36\).jpg");
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 100px;
+}
+
+h1 {
+  color: ghostwhite;
+  font-family: "Dancing Script", cursive;
+  font-size: 65px;
+  text-align: center;
+}
+
+ul {
+  color: ghostwhite;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+p {
+  color: ghostwhite;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
