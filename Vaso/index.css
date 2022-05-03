@@ -10,8 +10,8 @@ h1 {
   text-decoration-line: underline;
   text-align: center;
   font-size: 50px;
-  border-style: dashed;
-  border-color: blue;
+  border-style: solid;
+  border-color: rgb(151, 36, 26);
 }
 h1:hover {
   background-color: beige;
@@ -45,4 +45,14 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+img {
+  border-radius: 30px;
+}
+.art h1 {
+  color: black;
+  border-style: none;
+}
+.art p {
+  color: burlywood;
 }
