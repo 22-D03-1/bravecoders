@@ -1,23 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: darkorange;
+}
 img {
     border: 10px solid black;
     border-radius: 3%;
 }
 button {
-    background-color: rgb(0, 98, 255);
     border-style: none;
-    border-radius: 40%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-block: 10px;
-    text-shadow: 10%;
     border-width: 3px bold black;
-    cursor: pointer;
-}
-
-#slack {
-    background-color: aquamarine;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-color: lightskyblue;
+}
+
+.htmltags {
+    padding: auto;
+    border: 20px lightskyblue solid;
+    background-color: lightskyblue;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: black;
+}
+ul li {
+    display: flex;
+    text-size-adjust: 200%;
+    text-align: center;
 }
