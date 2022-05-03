@@ -41,8 +41,9 @@
 }
 
 a {
-  color: beige;
+  color: #48d1cc;
   text-decoration: none;
+  text-shadow: 3px 3px #2f4f4f;
 }
 
 .menuBar li:hover {
