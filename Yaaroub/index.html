@@ -7,7 +7,10 @@
       href="https://fonts.googleapis.com/css2?family=Kotta+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>Document</title>
     <style>
@@ -19,33 +22,50 @@
         text-align: center;
       }
       body {
-        background-color: beige;
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-design-image_458702.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        color: aqua;
+        
       }
       h2 {
-        font-family: 'Kotta One', serif;
+        font-family: "Kotta One", serif;
       }
-      p{
+      p {
         border: dashed 2px red;
         margin:50px;
         text-align: center;
+        padding: 10px;
+        width: 3cm;
       }
-      a{
+      a {
         text-decoration: none;
         color: brown;
       }
-      a:hover{
+      a:hover {
         color: blue;
       }
-
+      .first:hover {
+        color: red;
+      }
+      #sec:hover {
+        color: blueviolet;
+      }
     </style>
   </head>
   <body>
-    <section class="first">
+    <nav>
+      <a> PROMO</a>
+      <a>JOBS</a>
+      <a>VERANSTALTUNGEN</a>
+    </nav>
+    <section>
       <h1>YAAROUB</h1>
 
-      <img src="./profil.jpg" alt="Yaaroub" />
+     
     </section>
-
+    <img src="./profil.jpg" alt="Yaaroub" />
     <p>Ich bin seit 6,5 Jahren in Deutschland.</p>
     <h2><i class="fa fa-language">Sprachen:</i></h2>
     <ul>
@@ -55,19 +75,24 @@
       <li>Türkisch: Grundkenntnisse</li>
     </ul>
     <ol>
-<li>
- <a href="www.facebook.com"> <i class="fa fa-facebook"></i> facebook</a>
-</li>
-<li>
-  <i class="fa fa-telegram"> telegram</i>
-</li>
-<li>
-  <a href="www.youtube.com"> <i class="fa fa-youtube"> youtube</i>
-  </a>
-</li>
-<li>
-  <i class="fa fa-instagram"> instagram</i>
-</li>
+      <li>
+        <a href="https://www.facebook.com/yarobd">
+          <i class="fa fa-facebook"></i> facebook</a
+        >
+      </li>
+      <li>
+        <i class="fa fa-telegram"> telegram</i>
+      </li>
+      <li>
+        <a class="first" href="www.youtube.com">
+          <i class="fa fa-youtube"> youtube</i>
+        </a>
+      </li>
+      <li>
+        <a id="sec" href="https://www.instagram.com/yarobdawood/">
+          <i class="fa fa-instagram"> instagram</i></a
+        >
+      </li>
     </ol>
   </body>
 </html>
