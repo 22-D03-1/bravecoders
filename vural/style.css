@@ -32,3 +32,7 @@ body {
   color: chocolate;
   font-size: 3em;
 }
+.startseite a {
+  color: darkgoldenrod;
+  font-size: larger;
+}
