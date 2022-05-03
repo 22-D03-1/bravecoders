@@ -1,17 +1,19 @@
 * {
     box-sizing: border-box;
 }
-body {
-    margin-left: 20px;
-    margin-right: 20px;
-    border-left: 5px solid gray;
-    border-right: 5px solid gray;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: darkorange;
+body > section {
+    border: 10px red solid;
 }
+body {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    /* border: 1px solid gray; */
+    /* background-color: aquamarine; */
+}
+
 img {
-    border: 10px solid black;
+    border: 5px solid black;
     border-radius: 3%;
 }
 button {
@@ -25,12 +27,14 @@ p {
 
 section {
     background-color: lightskyblue;
+    padding: 10px;
 }
 
 .htmltags {
     padding: auto;
-    border: 20px lightskyblue solid;
-    background-color: lightskyblue;
+    border: 20px lightcoral solid;
+    background-color: lightcoral;
+    border-radius: 3%;
     text-decoration: none;
     display: inline-block;
     text-align: center;
