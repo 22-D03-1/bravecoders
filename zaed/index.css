@@ -1,24 +1,25 @@
 body {
-  color: brown;
-  background-color: black;
-  margin-right: 420px;
+  color: whitesmoke;
+  background-image: url(https://fastly.4sqi.net/img/general/width960/ObYsniEy3P_pLpepkEW84gXAI4QvfmLVdfTTbRqRAUk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 550px;
+
+  display: inline-block;
+
   font-size: xx-large;
 }
 
 .First {
-  background-color: red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: oblique;
   font-weight: bold;
 }
 .Second {
-  background-color: blue;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .Third {
-  background-color: aquamarine;
-
   font-style: italic;
 }
 a:hover {
@@ -26,9 +27,11 @@ a:hover {
   background-color: black;
 }
 .Forth {
-  background-color: greenyellow;
   font-family: "Courier New", Courier, monospace;
   border: 10px;
-  border-style: dashed;
-  border-color: red;
+}
+.ziga {
+  border: 15px;
+  border-color: brown;
+  border-style: groove;
 }
