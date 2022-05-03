@@ -40,3 +40,13 @@ body {
   color: darkgoldenrod;
   font-size: larger;
 }
+.wikipedia iframe,
+h2 {
+  display: inline-block;
+}
+.wikipedia p {
+  font-size: large;
+}
+.wikipedia h2 {
+  font-size: 2em;
+}
