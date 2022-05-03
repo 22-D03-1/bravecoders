@@ -1,0 +1,29 @@
+body {
+    background-image: url(joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 70px;
+    list-style: square;
+}
+
+h2 {
+    font-size: 50px;
+    color: cadetblue;
+}
+
+li {
+    font-size: 50px;
+    color: blue;
+}
+p {
+    font-size: 40px;
+    color: black;
+}
+
+img {
+    width: 200px;
+}
