@@ -1,0 +1,66 @@
+/* Index*/
+
+html {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: brown;
+  background-position: center center;
+  background-size: cover;
+}
+
+ {
+  color: azure;
+}
+
+/* Blog */
+#blog {
+  background-color: white;
+}
+.blog-header {
+  color: darkcyan;
+  margin-bottom: 2px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.Artikel1 {
+  border: 2px solid;
+  color: darkcyan;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.Artikel1 img {
+  width: 150px;
+}
+.Artikel1 p {
+}
+
+.Artikel2 {
+  border: 2px solid;
+  color: darkcyan;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.Artikel2 img {
+  width: 150px;
+}
+.Artikel3 {
+  border: 2px solid;
+  color: darkcyan;
+  padding: 5px;
+}
+.Artikel3 img {
+  width: 150px;
+}
+.blog-link {
+  padding: 10px;
+  color: cornflowerblue;
+}
+#Artikels {
+  display: inline-block;
+}
