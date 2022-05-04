@@ -12,6 +12,7 @@ background-size: cover;
     background-repeat: no-repeat;
 background-size: cover;
 }
+
 h1 {
     text-align: center;
     color: white;
@@ -35,22 +36,29 @@ color: red;
 a{ 
     display: block;
     text-decoration: none;
+    display: block;
+
 }
 video{
-display: block;
-margin-left: 355px;
-margin-top: -50px;
-border-radius:50px ;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+border-radius: 30px ;
+border-style: 30px solid  red;
+
 }
 #hobby img{
     float: right;
     display: block;
     width: 30%;
     margin-bottom: 15px;
-    border-radius: 20px;
+    border-radius: 50% 50%;
+    outline: 5px dotted rgb(148, 84, 84);
 }
 #hobby article , hr ,ul, .link {
     clear: both;
+    
 }
 .buch  img {
     border-radius: 20px;
@@ -58,6 +66,8 @@ border-radius:50px ;
     display: block;
     width: 30%;
     margin-top: -40px;
+    border-radius: 50% 50%;
+    outline: 5px dotted rgb(148, 84, 84);
 }
 
 
