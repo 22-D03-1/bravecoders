@@ -104,6 +104,12 @@ a {
   font-family: "Playfair Display", serif;
 }
 .picAboutMe {
+  background: url(../assets/img/me2020.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15vw;
+  height: 45vh;
   float: right;
   border: 0.2em solid #696969;
   border-radius: 55px;
@@ -113,13 +119,14 @@ a {
 
 .picAboutMe:hover {
   transform: scale(0.9);
-  transition: 600ms;
+  transition: 600ms ease-in-out;
 }
 
 .description p {
   text-align: justify;
   margin: 2em;
-  font-size: 5em;
-  font-family: "Roboto", sans-serif;
-  text-shadow: 0.5px 0.5px gray;
+  font-size: 3em;
+  font-family: "Playfair Display", serif;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  color: black;
 }
