@@ -47,9 +47,10 @@ a {
 }
 
 .menuBar li:hover {
-  background-color: #ddd;
+  background-color: gray;
   color: black;
-  transition: 600ms;
+  transition: 600ms ease-out;
+  transform: scale(1.1);
 }
 .menuBar i {
   font-size: 3rem;
@@ -59,8 +60,8 @@ a {
 }
 
 .menuBar i:hover {
-  transform: scale(0.9);
-  transition: transform 600ms ease-in;
+  transform: scale(1.2);
+  transition: 600ms ease-in;
 }
 
 .heading {
@@ -107,26 +108,28 @@ a {
   text-shadow: 0.4rem 0.4rem lightskyblue;
 }
 #aboutMe {
-  border: 5px solid black;
-  min-height: 95vh;
-  margin: 25px;
-  padding: 15px;
+  /* border: 5px solid black; */
+  min-height: 100vh;
+  margin: 18px;
+  padding: 10px;
   background: linear-gradient(
       to top,
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.6)
     ),
     url(../assets/img/Moldova_logo_pantone_vertical_overblack.jpg);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
+
   border-radius: 15px;
 }
 .biography h1 {
   font-size: 5rem;
   text-align: center;
-  color: #2f4f4f;
-  text-shadow: 1rem 1rem #d3d3d3;
+  color: black;
+  margin-top: 2rem;
+  text-shadow: 0.1rem 0.1rem #d3d3d3;
   font-family: "Playfair Display", serif;
 }
 .picAboutMe {
@@ -151,8 +154,8 @@ a {
 .description p {
   text-align: justify;
   margin: 2em;
-  font-size: 1.5em;
-  font-family: "Playfair Display", serif;
-  text-shadow: 1px 1px rgb(0, 0, 0);
+  font-size: 1.8em;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0.05rem 0.05rem lightsteelblue;
   color: black;
 }
