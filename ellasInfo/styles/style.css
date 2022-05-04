@@ -108,6 +108,7 @@ a {
   border: 0.2em solid #696969;
   border-radius: 55px;
   margin: 5rem;
+  overflow: hidden;
 }
 
 .picAboutMe:hover {
