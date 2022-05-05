@@ -1,6 +1,7 @@
 body {
   background-image: url("wallpaperbetter\(36\).jpg");
   background-repeat: no-repeat;
+  font-family: "Courier New", Courier, monospace;
 }
 
 header {
@@ -9,7 +10,6 @@ header {
 
 h1 {
   color: ghostwhite;
-  font-family: "Courier New", Courier, monospace;
   font-size: 65px;
   text-align: center;
 }
@@ -34,7 +34,6 @@ nav a:hover {
 
 ul {
   color: ghostwhite;
-  font-family: "Courier New", Courier, monospace;
   font-size: 30px;
 }
 
