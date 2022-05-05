@@ -109,16 +109,16 @@ a {
 #aboutMe {
   /* border: 5px solid black; */
   min-height: 100vh;
-  margin: 18px;
+  margin: 17px;
   padding: 10px;
   background: linear-gradient(
       to top,
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 0.6)
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.8)
     ),
     url(../assets/img/Moldova_logo_pantone_vertical_overblack.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: 0% 75%;
   background-repeat: no-repeat;
 
   border-radius: 15px;
@@ -142,11 +142,11 @@ a {
   border: 0.2rem solid #696969;
   border-radius: 55px;
   margin: 3rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .picAboutMe:hover {
-  transform: scale(0.9);
+  transform: scale(1.2);
   transition: 600ms ease-in-out;
 }
 
@@ -157,4 +157,20 @@ a {
   font-family: "Roboto", sans-serif;
   text-shadow: 0.05rem 0.05rem lightsteelblue;
   color: black;
+}
+.picAboutMe1 {
+  background: url(../assets/img/misha1.JPG);
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 12vw;
+  aspect-ratio: 1/1.3;
+  border: 0.2rem solid #696969;
+  border-radius: 55px;
+  margin: 3rem;
+}
+
+.picAboutMe1:hover {
+  transform: rotateY(180deg);
+  transition: 1.5s ease-in;
 }
