@@ -17,12 +17,12 @@ h1 {
 nav {
   background-color: ghostwhite;
   text-align: center;
-  font-family: "Dancing Script", cursive;
+  font-family: "Courier New", Courier, monospace;
 }
 
 nav a {
   color: cadetblue;
-  padding: 10px 40px;
+  padding: 15px 45px;
   display: inline-block;
   text-decoration: none;
 }
@@ -34,13 +34,13 @@ nav a:hover {
 
 ul {
   color: ghostwhite;
-  font-family: "Dancing Script", cursive;
+  font-family: "Courier New", Courier, monospace;
   font-size: 30px;
 }
 
 p {
   color: ghostwhite;
-  font-family: "Dancing Script", cursive;
+  font-family: "Courier New", Courier, monospace;
   font-size: 25px;
 }
 
