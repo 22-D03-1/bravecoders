@@ -2,6 +2,7 @@ body {
   background-image: url("wallpaperbetter\(36\).jpg");
   background-repeat: no-repeat;
   font-family: "Courier New", Courier, monospace;
+  margin: 0;
 }
 
 header {
@@ -23,7 +24,6 @@ nav a {
   color: cadetblue;
   padding: 15px 45px;
   display: inline-block;
-  text-decoration: none;
 }
 
 nav a:hover {
