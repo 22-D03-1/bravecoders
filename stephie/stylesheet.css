@@ -36,6 +36,15 @@ ul {
   font-size: 30px;
 }
 
+div#con2 {
+  padding: 10px 40px;
+}
+
+div#con3 {
+  background: inherit;
+  padding: 10px 20px;
+}
+
 p {
   color: ghostwhite;
   font-size: 25px;
