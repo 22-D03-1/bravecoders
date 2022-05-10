@@ -2,6 +2,7 @@ body {
   background-image: url("wallpaperbetter\(36\).jpg");
   background-repeat: no-repeat;
   font-family: "Courier New", Courier, monospace;
+  text-shadow: 2px 2px 7px #111111;
   margin: 0;
 }
 
@@ -18,6 +19,7 @@ h1 {
 nav {
   background-color: ghostwhite;
   text-align: center;
+  text-shadow: none;
 }
 
 nav a {
@@ -41,8 +43,9 @@ div#con2 {
 }
 
 div#con3 {
-  background: inherit;
   padding: 10px 20px;
+  background: inherit;
+  text-shadow: 2px 2px 7px #111111;
 }
 
 p {
