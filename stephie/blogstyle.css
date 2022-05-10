@@ -32,3 +32,15 @@ nav a:hover {
   background-color: cadetblue;
   color: ghostwhite;
 }
+
+footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 15px;
+}
