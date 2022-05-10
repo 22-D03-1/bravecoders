@@ -32,32 +32,3 @@ nav a:hover {
   background-color: cadetblue;
   color: ghostwhite;
 }
-
-ul {
-  font-size: 30px;
-}
-
-div#con2 {
-  padding: 10px 40px;
-}
-
-div#con3 {
-  padding: 10px 20px;
-  background: inherit;
-}
-
-p {
-  font-size: 25px;
-}
-
-footer {
-  text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-footer p {
-  font-size: 15px;
-}
