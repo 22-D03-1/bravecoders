@@ -24,7 +24,7 @@
 .menüBar {
   margin-top: 1rem;
 }
-.menuBar li {
+.menuBar > ul > li {
   display: inline-block;
   list-style-type: none;
   background-color: black;
@@ -44,11 +44,33 @@ a {
   font-size: 1.4rem;
 }
 
-.menuBar li:hover {
+.menuBar > ul > li:hover {
   background-color: gray;
   color: black;
   transition: 600ms ease-out;
   transform: scale(1.1);
+}
+.hobbyParent {
+  position: relative;
+}
+.hobbyChild {
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  top: 35%;
+  left: 100%;
+}
+
+.hobbyChild > li {
+  border: 0.2rem solid #6edcd9;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  font-family: "Playfair Display", serif;
+  box-shadow: inset 0 0 1rem 0 #6edcd9, 0 0 1rem 0 #6edcd9;
+}
+
+.hobbyParent:hover .hobbyChild {
+  display: block;
 }
 /* facebook icon */
 .menuBar i {
