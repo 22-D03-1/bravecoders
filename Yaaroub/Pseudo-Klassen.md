@@ -20,4 +20,7 @@ Mit Pseudoklassen und Pseudoelementen lässt sich eine Seite nicht nur in Bezug 
         color:red
     }
 </style>
-
+## Andere Pseudo-klassen:
+1. **:first-child:** *Wählt das erste Kindelement aus*
+2. **:last-child:** *Wählt das letzte Kindelement aus*
+3. **:nth-child(n):** *Wählt das zweite Kindelement aus*
