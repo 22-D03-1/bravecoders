@@ -22,15 +22,17 @@
   border-radius: 15px;
 }
 .menüBar {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .menuBar > ul > li {
   display: inline-block;
   list-style-type: none;
   background-color: black;
   color: #f2f2f2;
-  padding: 1.5rem;
-  margin-right: 0.5rem;
+  padding: 1.7rem;
+  width: 150px max-content;
+
+  margin-right: 2rem;
   text-decoration: none;
   box-shadow: inset 0 0 1rem 0 #6edcd9, 0 0 1rem 0 #6edcd9;
   border-radius: 100vw;
@@ -41,7 +43,7 @@ a {
   color: #6edcd9;
   text-decoration: none;
   font-family: "Playfair Display", serif;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 .menuBar > ul > li:hover {
@@ -63,10 +65,11 @@ a {
 
 .hobbyChild > li {
   border: 0.2rem solid #6edcd9;
-  border-radius: 2rem;
-  padding: 0.8rem;
+  border-radius: 3rem;
+  padding: 1.2rem;
   font-family: "Playfair Display", serif;
   box-shadow: inset 0 0 1rem 0 #6edcd9, 0 0 1rem 0 #6edcd9;
+  text-align: center;
 }
 
 .hobbyParent:hover .hobbyChild {
@@ -170,9 +173,15 @@ a {
   font-size: 5rem;
   text-align: center;
   color: black;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  padding: 1.5rem;
   text-shadow: 0.1rem 0.1rem #d3d3d3;
-  font-family: "Playfair Display", serif;
+  font-family: "Orelega One", cursive;
+  letter-spacing: 0.5rem;
+}
+.textStyle {
+  color: black;
+  text-shadow: 0.04rem 0.04rem rgb(152, 48, 48);
 }
 .picAboutMe {
   background: url(../assets/img/me2020.jpg);
@@ -221,6 +230,15 @@ a {
   cursor: col-resize;
 }
 
+.linkMoldova {
+  color: rgb(71, 67, 67);
+  padding: 0.4rem;
+
+  text-shadow: 0.07rem black;
+  background-color: white;
+  border-radius: 1rem;
+}
+
 .picAboutMe2 {
   background: url(../assets/img/Valeria1.jpg);
   background-size: 100%;
@@ -228,4 +246,10 @@ a {
   background-repeat: no-repeat;
   object-fit: cover;
   float: right;
+}
+.country {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-shadow: 0.07rem 0.07rem rgb(152, 48, 48);
+  font-family: "Orelega One", cursive;
 }
