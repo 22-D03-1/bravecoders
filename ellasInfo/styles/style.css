@@ -155,9 +155,9 @@ a {
 }
 #aboutMe {
   /* border: 5px solid black; */
-  min-height: 100vh;
-  margin: 17px;
-  padding: 10;
+  height: 100vh;
+  margin: 1rem;
+  padding: 1rem;
   background: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.5),
@@ -168,13 +168,14 @@ a {
   background-position: 0% 75%;
   background-repeat: no-repeat;
   border-radius: 15px;
+  position: relative;
 }
 .biography h1 {
   font-size: 5rem;
   text-align: center;
   color: black;
-  margin-top: 3rem;
-  padding: 1.5rem;
+  margin-top: 1rem;
+  padding: 0.3rem;
   text-shadow: 0.1rem 0.1rem #d3d3d3;
   font-family: "Orelega One", cursive;
   letter-spacing: 0.5rem;
@@ -194,6 +195,8 @@ a {
   border: 0.2rem solid #696969;
   border-radius: 55px;
   margin: 2rem;
+  /* position: absolute;
+  top: 10px; */
   /* overflow: hidden; */
 }
 
@@ -204,12 +207,12 @@ a {
 
 .description p {
   text-align: justify;
-  margin: 1.5em;
-  font-size: 1.8em;
+  margin: 1em;
+  font-size: 1.5em;
   font-family: "Roboto", sans-serif;
   text-shadow: 0.05rem 0.05rem lightsteelblue;
   color: black;
-  padding: 1rem;
+  /* padding: 0.5rem; */
 }
 .picAboutMe1,
 .picAboutMe2 {
@@ -232,12 +235,19 @@ a {
 }
 
 .linkMoldova {
-  color: rgb(71, 67, 67);
-  padding: 0.4rem;
-
-  text-shadow: 0.07rem black;
   background-color: white;
   border-radius: 1rem;
+  width: max-content;
+  position: absolute;
+  bottom: 0.8rem;
+  left: 40%;
+  padding: 0.2rem;
+}
+.linkMoldova > a {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-shadow: 0.07rem 0.07rem rgb(152, 48, 48);
+  font-family: "Orelega One", cursive;
 }
 
 .picAboutMe2 {
