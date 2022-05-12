@@ -13,6 +13,7 @@ h1 {
   font-size: 50px;
   border-style: solid;
   border-color: rgb(237, 220, 219);
+  font-family: "Macondo", cursive;
 }
 h1:hover {
   color: darkgrey;
@@ -28,6 +29,7 @@ h2 {
 
   border-bottom-style: outset;
   border-bottom-width: 10px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 p:hover {
@@ -38,8 +40,12 @@ p {
   color: aliceblue;
   font-size: x-large;
 }
+ul {
+  list-style: none;
+}
 a {
   font-size: xx-large;
+  color: antiquewhite;
 }
 a:hover {
   color: rgb(51, 136, 153);
@@ -62,6 +68,14 @@ a:hover {
 }
 img {
   border-radius: 30px;
+  float: right;
+  box-shadow: 20px, 30px, 20px, gray;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  margin-left: 10px;
 }
 
 /* i frame zentrieren */
@@ -71,4 +85,10 @@ iframe {
   display: block;
   height: 700px;
   width: 1700px;
+}
+.farbe {
+  color: red;
+}
+.farbe1 {
+  color: green;
 }
