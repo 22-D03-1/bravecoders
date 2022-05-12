@@ -17,46 +17,93 @@
     ),
     url(../assets/img/background2.jpg);
   background-size: cover;
-  background-position: center;
+  object-fit: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 .menüBar {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
-.menuBar li {
+.menuBar > ul > li {
   display: inline-block;
   list-style-type: none;
   background-color: black;
   color: #f2f2f2;
-  padding: 1.5rem;
-  margin-right: 0.5rem;
-  text-decoration: none;
-  font-size: 1.5rem;
+  padding: 1.7rem;
+  width: 150px max-content;
 
+  margin-right: 2rem;
+  text-decoration: none;
+  box-shadow: inset 0 0 1rem 0 #6edcd9, 0 0 1rem 0 #6edcd9;
   border-radius: 100vw;
-  border: 2px solid #ff99ff;
+  border: 0.15rem solid #6edcd9;
 }
 
 a {
-  color: #48d1cc;
+  color: #6edcd9;
   text-decoration: none;
-  text-shadow: 1.5px 1.5px #2f4f4f;
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
 }
 
-.menuBar li:hover {
+.menuBar > ul > li:hover {
   background-color: gray;
   color: black;
   transition: 600ms ease-out;
   transform: scale(1.1);
+}
+.hobbyParent {
+  position: relative;
+}
+.hobbyChild {
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  top: 35%;
+  left: 100%;
+}
+
+.hobbyChild > li {
+  border: 0.2rem solid #6edcd9;
+  border-radius: 3rem;
+  padding: 1.2rem;
+  font-family: "Playfair Display", serif;
+  box-shadow: inset 0 0 1rem 0 #6edcd9, 0 0 1rem 0 #6edcd9;
+  text-align: center;
+}
+
+.hobbyParent:hover .hobbyChild {
+  display: block;
 }
 /* facebook icon */
 .menuBar i {
   font-size: 3rem;
   float: right;
   color: #3b5998;
-  margin: 1rem 4rem;
+  margin: 1rem 0.5rem;
 }
+/* icon instagram */
+.menuBar ul > a:nth-of-type(1) i {
+  font-size: 3.5rem;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 3rem;
+}
+
+.menuBar ul > a:nth-of-type(1) i:hover {
+  transform: scale(1.2);
+  transition: 600ms ease-in;
+}
+
 /* facebook hover */
 .menuBar i:hover {
   transform: scale(1.2);
@@ -82,7 +129,7 @@ a {
   font-size: 7rem;
   margin-top: 9rem;
   font-family: "Arizonia", cursive;
-  text-shadow: 0.06em 0.06em lightblue;
+  text-shadow: 0.06em 0.06em #6edcd9;
 }
 
 .heading2 {
@@ -108,28 +155,34 @@ a {
 }
 #aboutMe {
   /* border: 5px solid black; */
-  min-height: 100vh;
-  margin: 18px;
-  padding: 10px;
+  height: 100vh;
+  margin: 1rem;
+  padding: 1rem;
   background: linear-gradient(
       to top,
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 0.6)
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.8)
     ),
     url(../assets/img/Moldova_logo_pantone_vertical_overblack.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: 0% 75%;
   background-repeat: no-repeat;
-
   border-radius: 15px;
+  position: relative;
 }
 .biography h1 {
   font-size: 5rem;
   text-align: center;
   color: black;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  padding: 0.3rem;
   text-shadow: 0.1rem 0.1rem #d3d3d3;
-  font-family: "Playfair Display", serif;
+  font-family: "Orelega One", cursive;
+  letter-spacing: 0.5rem;
+}
+.textStyle {
+  color: black;
+  text-shadow: 0.04rem 0.04rem rgb(152, 48, 48);
 }
 .picAboutMe {
   background: url(../assets/img/me2020.jpg);
@@ -141,20 +194,73 @@ a {
   float: right;
   border: 0.2rem solid #696969;
   border-radius: 55px;
-  margin: 3rem;
-  overflow: hidden;
+  margin: 2rem;
+  /* position: absolute;
+  top: 10px; */
+  /* overflow: hidden; */
 }
 
 .picAboutMe:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
   transition: 600ms ease-in-out;
 }
 
 .description p {
   text-align: justify;
-  margin: 2em;
-  font-size: 1.8em;
+  margin: 1em;
+  font-size: 1.5em;
   font-family: "Roboto", sans-serif;
   text-shadow: 0.05rem 0.05rem lightsteelblue;
   color: black;
+  /* padding: 0.5rem; */
+}
+.picAboutMe1,
+.picAboutMe2 {
+  background: url(../assets/img/misha1.JPG);
+  display: inline-block;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 18vw;
+  aspect-ratio: 1/1.3;
+  border: 0.2rem solid #696969;
+  border-radius: 55px;
+  margin: 3rem;
+}
+
+.picAboutMe1:hover {
+  transform: rotateY(180deg);
+  transition: 3s ease-in;
+  cursor: col-resize;
+}
+
+.linkMoldova {
+  background-color: white;
+  border-radius: 1rem;
+  width: max-content;
+  position: absolute;
+  bottom: 0.8rem;
+  left: 40%;
+  padding: 0.2rem;
+}
+.linkMoldova > a {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-shadow: 0.07rem 0.07rem rgb(152, 48, 48);
+  font-family: "Orelega One", cursive;
+}
+
+.picAboutMe2 {
+  background: url(../assets/img/Valeria1.jpg);
+  background-size: 100%;
+  /* background-position: top; */
+  background-repeat: no-repeat;
+  object-fit: cover;
+  float: right;
+}
+.country {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-shadow: 0.07rem 0.07rem rgb(152, 48, 48);
+  font-family: "Orelega One", cursive;
 }

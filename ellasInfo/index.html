@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>AboutMe</title>
+    <title>Who i am ?</title>
   </head>
   <body>
     <section class="homeSection">
       <div class="menuBar">
         <ul>
           <li><a class="active" href="#aboutMe">About me</a></li>
-          <li><a href="#hobbys">Hobbys</a></li>
-
           <li><a href="#projectsIT">Projects</a></li>
 
-          <li><a href="#dreams">Dreams</a></li>
+          <li class="hobbyParent">
+            <a href="#hobbys">Hobbys</a>
+            <ul class="hobbyChild">
+              <li><a href="sweets">Sweets</a></li>
+              <li><a href="fimo">Fimo</a></li>
+              <li><a href="knitting">Knitting</a></li>
+            </ul>
+          </li>
+
+          <a href="https://www.instagram.com/ella_rotary/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+
           <a href="https://www.facebook.com/elena.rotary.16" target="_blank"
             ><i class="fa-brands fa-facebook"></i
           ></a>
@@ -40,18 +50,31 @@
         <div class="description">
           <p>
             I'm Elena, I am 36 years old and I am comming from Moldova, but
-            above all I am:<strong
-              ><em> Woman, Mother, Child and of course a Human.</em></strong
+            above all I am:
+            <span class="textStyle"
+              ><strong
+                ><em> Woman, Mother, Child and of course a Human.</em></strong
+              ></span
             >
-            I was born in May, which means I love flowers and spring, I love
+            > I was born in May, which means I love flowers and spring, I love
             happy companies and open minded people. I appreciate personalities
             with character, with principles, with dignity, as well as those who
             have a well-developed sense of humor. <br />
             As I mentioned above, I am a Mother and I have been raising my
-            children for some time absolutely alone, which has changed my
-            character and personality. And that's exactly what motivated me
-            almost 6 years ago to emigrate from my home country - to Germany,
-            and this decision was one of the best decisions since then. <br />
+            children for some time absolutely alone, which has changed
+            fundamental my character and personality. And that's exactly what
+            motivated me almost 6 years ago to emigrate from my home country -
+            to Germany, and this decision was one of the best decisions since
+            then. <br />
+
+            <span class="country"><strong>Moldova - </strong></span>Despite the
+            fact that Moldova is a small country, located between Romania and
+            Ukraine, it hosts a society with many beautiful qualities and
+            traditions preserved over time. To find out more about my home
+            country you can access the link => <br />
+
+            <br />
+            <span class="country"><strong>Germany - </strong></span> in 2017
             Germany has adopted us as orphans and given us all this stability
             and an opportunity for a different future. Here I met beautiful
             people both face and soul. Here I discovered that
@@ -59,6 +82,17 @@
             <strong>Motivation and Desire</strong> is high - you can achieve
             success.
           </p>
+          <div class="linkMoldova">
+            <a href="https://moldova.travel/en/" target="_blank">
+              Link Travel to Moldova
+            </a>
+          </div>
+
+          <!-- <div class="fetele">
+            <p class="picAboutMe1"></p>
+
+            <p class="picAboutMe2"></p>
+          </div> -->
         </div>
       </div>
     </section>
