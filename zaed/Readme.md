@@ -10,7 +10,7 @@ Beispiel:
 
 <style>
     #padding {
-    border: 10px solid red;
+    border: 10px dashed yellow;
 
   padding-top: 50px;
   padding-right: 30px;
