@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kotta+One&family=Vibes&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,92 +16,14 @@
     />
 
     <title>Document</title>
-    <style>
-      #th {
-        width: 100px;
-        border-radius: 30%;
-      }
-      div {
-        background-color: rgba(240, 248, 255, 0.808);
-        width: 450px;
-        border-radius: 20px;
-        
-      }
-      img {
-        width: 500px;
-        border-radius: 70px;
-      }
-      h1 {
-      }
-      body {
-        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-design-image_458702.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-        color: aqua;
-      }
-      h2 {
-        font-family: "Kotta One", serif;
-      }
-      p {
-        border: dashed 2px red;
-        margin: 50px;
-        text-align: center;
-        padding: 10px;
-        width: 3cm;
-      }
-      a {
-        text-decoration: none;
-        color: brown;
-        padding: 10px;
-      }
-      a:hover {
-        color: blue;
-      }
-      .first:hover {
-        color: red;
-      }
-      #sec:hover {
-        color: blueviolet;
-      }
-      ol li {
-        display: inline;
-      }
-      nav {
-        margin-bottom: 70px;
-        margin-top: 20px;
-        text-align: center;
-        background-color: rgba(0, 174, 255, 0.651);
-        width: 10cm;
-        border-radius: 20px;
-        margin: auto;
-      }
-      nav a {
-        color: aqua;
-      }
-      article {
-        padding: 30px;
-        text-align: center;
-        width: 400px;
-        background-color: rgba(255, 255, 255, 0.26);
-        border-radius: 30px;
-        margin: 10px;
-      }
-      section {
-        display: flex;
-        width: 1000px;
-        margin: auto;
-      }
-      nav a:hover {
-        color: burlywood;
-      }
-    </style>
+
+    <link href="./styles.css" rel="stylesheet" />
   </head>
   <body>
     <nav>
       <a href="./index.html"> PROMO</a>
-      <a>JOBS</a>
-      <a>VERANSTALTUNGEN</a>
+      <a href="#">JOBS</a>
+      <a href="#">VERANSTALTUNGEN</a>
     </nav>
     <section></section>
     <a></a> <img id="th" src="./profil.jpg" alt="Yaaroub" />
@@ -113,10 +38,10 @@
     <h2>Mein lieblings Getränk:</h2>
     <section>
       <article>
-        Ein Mokka oder Mocca, häufig auch ‚Türkischer Kaffee‘ genannt, ist ein
-        Kaffeegetränk aus dem arabischen Raum. Die Kaffeebohnen stammen aus
-        Jemen oder Äthiopien und werden auf traditionelle Art und Weise mit
-        einem kleinen Kännchen zubereitet.<br />
+        <strong>Mokka</strong> oder Mocca, häufig auch ‚Türkischer Kaffee‘
+        genannt, ist ein Kaffeegetränk aus dem <i>arabischen Raum</i>. Die Kaffeebohnen
+        stammen aus Jemen oder Äthiopien und werden auf traditionelle Art und
+        Weise mit einem kleinen Kännchen zubereitet.<br />
 
         Für die Zubereitung werden die kräftig gerösteten Kaffeebohnen sehr fein
         gemahlen (mit einem Mahlgrad von ca. 1,0) und anschließend mit warmen
@@ -146,7 +71,11 @@
         alt="Kaffee"
       />
     </section>
-
+    <h2 id="ar">Arabische schrift:</h2>
+    <div class="arab">
+      وكل شيء خلقناه<span>بقدر</span>
+    </div>
+    
     <div>
       <ol>
         <li>
@@ -168,6 +97,9 @@
           <a id="sec" href="https://www.instagram.com/yarobdawood/">
             <i class="fa fa-instagram"> instagram</i></a
           >
+        </li>
+        <li>
+          <i class="fa-solid fa-smoking"></i>
         </li>
       </ol>
     </div>

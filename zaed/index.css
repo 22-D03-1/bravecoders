@@ -1,6 +1,6 @@
 body {
   color: whitesmoke;
-  background-image: url(https://fastly.4sqi.net/img/general/width960/ObYsniEy3P_pLpepkEW84gXAI4QvfmLVdfTTbRqRAUk.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI5ypQfgyS9eWiGYGC3EJDSCKaK_7rn9PUZg&usqp=CAU);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 550px;
@@ -23,7 +23,7 @@ body {
   font-style: italic;
 }
 a:hover {
-  color: yellow;
+  color: red;
   background-color: black;
 }
 .Forth {
@@ -34,7 +34,11 @@ a:hover {
   border: 15px;
   border-color: brown;
   border-style: groove;
+  background-color: rgba(1, 1, 1, 0.5);
+  font-size: 70px;
+  font-family: "Koulen", cursive;
 }
 iframe {
-  width: 1000px;
+  width: 3000px;
+  height: 1500px;
 }
