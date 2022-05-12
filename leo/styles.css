@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    font-family: "Macondo", cursive;
+    font-family: "Roboto", sans-serif;
 }
 body > section {
     border: 10px gray solid;
