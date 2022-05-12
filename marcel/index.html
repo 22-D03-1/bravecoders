@@ -2,31 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="keywords" content="HTML, CSS, Foto, links">
+  <meta name="keywords" content="HTML, CSS, img, links">
   <meta name="author" content="Marcel Jaworski">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script&display=swap" rel="stylesheet">
   <title>Marcel Jaworski</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header>
+    <li><a href="default.asp">Uber mich</a></li>
+    <li><a href="news.asp"></a>Gallery</li>
+    <li><a href="contact.asp">Filmography</a></li>
+    <li><a href="about.asp">Kontakt</a></li>
+  </header>
   <ul>
-    <li><a href="default.asp">Home</a></li>
-    <li><a href="news.asp">News</a></li>
-    <li><a href="contact.asp">Contact</a></li>
-    <li><a href="about.asp">About</a></li>
+    
   </ul>
 
   <h1>Marcel Jaworski</h1>
-  <section style="background-color:#F2F2F2;">
-    <h2>Über mich</h2>
-  <p>Ich komme aus <i>Venezuela</i>. Ich bin 37 Jahre Alt. <br>Seit 2017 wohne ich in Bayern.</p>
-  
-
-  <img src="./MarcelProfilbild.jpg" alt="MarcelJaworskiCinematography" width="300"; style="border: 15px solid #152553">
-  </section>
-  
+ 
   <section>
+    
+      <h2>Über mich</h2>
+    <p>Ich komme aus <i>Venezuela</i>. Ich bin 37 Jahre Alt. <br>Seit 2017 wohne ich in Bayern.</p>
+    
+  
+    <img src="./MarcelProfilbild.jpg" alt="MarcelJaworskiCinematography" width="300"; style="border: 15px solid #152553">
+    
     <h3>Fähigkeiten</h3>
     <ul>
       <li>Photograph</li><br>
@@ -50,30 +56,64 @@
       <li>Englisch</li>
     </ul>
   </section>
-  <section>
-    <h3>Links</h3>
-    <nav>
-      <ul>
-        <li>
-          <a href="https://www.instagram.com/marcel.jaworski/?hl=es" target="_blank">Meine Bilder auf Instagram</a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/c/MarcelJaworskiCinematography/videos" target="_blank">Meine Videos auf Youtube</a>
-        </li>
-      </ul>
-
-    </nav>
-    <h3>Kontakt</h3>
-    <nav>
-      <a href="mailto:jaworskimarcel@gmail.com">Send Email</a>
-
-
-    </nav>
-    <br>
+ 
+  <section class="gallery">
+    <h2>Gallery</h2>
     
+    <div class="div">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Playa Karibik">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Playa Karibik Strand">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Die Anden">
+      
+    </div>
+    <div class="div">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Fahrrad Light painting">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Vögel Tropisch">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Buterfly">
+    </div>
+   
+    <div class="div">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Tropisch Frog">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Spine">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Käfer">
+
+    </div>
+  
+    <div class="div">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Marcel Naturfotograf">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Marcel Bergsteiger">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Marcel Zirkus Clown">
+
+    </div>
+  
+    <div class="div">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Schmetterling">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="Geier">
+      <img class="gallery-img" src="./MarcelProfilbild.jpg" alt="kopulierende Kröten">
+
+    </div>
+    <section>
+      <h3>Links</h3>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/marcel.jaworski/?hl=es" target="_blank">Meine Bilder auf Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/c/MarcelJaworskiCinematography/videos" target="_blank">Meine Videos auf Youtube</a>
+          </li>
+        </ul>
+  
+      </nav>
+      <h3>Kontakt</h3>
+      <nav>
+        <a href="mailto:jaworskimarcel@gmail.com">Send Email</a>
+      </nav>
+      <br>
+    </section>
   </section>
 
-  <p  style="background-color:#595956; color: #F2F2F2;">Vielen Dank für Ihren Besuch!</p>
+  <p class="textbackground">Vielen Dank für Ihren Besuch!</p>
   
 </body>
 </html>
