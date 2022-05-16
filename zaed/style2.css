@@ -1,0 +1,10 @@
+div {
+  font-size: 150px;
+  background-color: rgba(1, 1, 1, 0.336);
+  color: brown;
+  border: 15px groove;
+  border-radius: 20%;
+  border-color: blue;
+  margin: 150px;
+  padding: 70px;
+}
