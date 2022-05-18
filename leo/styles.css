@@ -43,3 +43,25 @@ section {
     text-align: center;
     color: black;
 }
+#abschicken {
+    background-color: gray;
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+#zuruecksetzen {
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+footer {
+    background-color: lightskyblue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 10px gray solid;
+    border-radius: 1%;
+}
