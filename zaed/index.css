@@ -36,7 +36,7 @@ a:hover {
   border-style: groove;
   background-color: rgba(1, 1, 1, 0.5);
   font-size: 70px;
-  font-weight: bolder;
+  font-family: "Koulen", cursive;
 }
 iframe {
   width: 3000px;

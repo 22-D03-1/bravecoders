@@ -1,16 +1,26 @@
 * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
 } 
 body{
-    background-image: url(../images/naturbild.jpg);
-    background-repeat: no-repeat;
-background-size: cover;
+   
+background-color: rgb(102, 131, 87);
+padding-top: 80px;
+margin-bottom: 100px;
 }
 .header {display: block;
     text-decoration: none;
-    background-image: url(../images/naturbild2.jpg);
-    background-repeat: no-repeat;
-background-size: cover;
+background-color: rgba(34, 34, 160, 0.801);
+position: fixed;
+left: 0;
+width: 100%;
+margin-top: -80px;
+
+z-index: 1;
+
 }
 
 h1 {
@@ -19,7 +29,7 @@ h1 {
     transition: 0.3s;
 }
  p {
-    color: rgb(116, 25, 25);
+    color: rgb(180, 38, 38);
 }
 .info p {
     color: rgba(153, 205, 50, 0.617);
@@ -32,12 +42,13 @@ color: red;
 .ul1 {
     list-style: none;
     text-align: end;
+ 
 }
 a{ 
     display: block;
     text-decoration: none;
     display: block;
-
+    color: white;
 }
 video{
     display: block;
@@ -70,5 +81,19 @@ border-style: 30px solid  red;
     outline: 5px dotted rgb(148, 84, 84);
 }
 
+footer {
+    display: block;
+    background-color: rgb(40, 40, 218);
+  width: 100%;
+  text-align: center;
+  height: 70px;
+position: fixed;
+bottom: 0;
 
+
+    z-index: 1;
+}
+footer  li ,h5 {
+color: rgb(192, 94, 94);
+}
 
