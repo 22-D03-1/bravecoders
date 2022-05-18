@@ -5,10 +5,16 @@ body {
   color: ghostwhite;
   text-shadow: 2px 2px 7px #111111;
   margin: 0;
+  padding: 0;
 }
 
 header {
-  height: 100px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url("wallpaperbetter\(36\).jpg");
+  background-attachment: fixed;
 }
 
 h1 {
