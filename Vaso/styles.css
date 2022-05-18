@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   width: auto;
   background-image: url(./thumbs_b_c_929793c3b75cdf78787f9abcb55c13b1.jpg);
@@ -10,7 +13,7 @@ h1 {
   text-shadow: 5px 5px 5px;
   text-decoration-line: none;
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   border-style: solid;
   border-color: rgb(237, 220, 219);
   font-family: "Macondo", cursive;
@@ -30,6 +33,46 @@ h2 {
   border-bottom-style: outset;
   border-bottom-width: 10px;
   font-family: "Ubuntu", sans-serif;
+}
+form {
+  border: 5px solid rgb(80, 72, 72);
+}
+
+label {
+  max-width: 30px;
+  margin-right: auto;
+  display: inline-block;
+  font-size: xx-large;
+
+  margin: 1rem;
+}
+input {
+  font-size: large;
+}
+textarea {
+  background-color: rgb(126, 155, 235);
+  font-size: larger;
+}
+button {
+  font-size: 20px;
+  background-color: rgba(48, 112, 23, 0.718);
+  padding: 25px;
+  margin: 20px;
+  cursor: pointer;
+  width: 200px;
+  color: azure;
+  border-radius: 50%;
+}
+button:hover {
+  color: rgb(227, 209, 209);
+  background-color: rgb(167, 29, 29);
+}
+select {
+  background-color: blueviolet;
+  font-size: larger;
+}
+option {
+  background-color: brown;
 }
 
 p:hover {
@@ -63,7 +106,7 @@ a:hover {
   border-style: none;
 }
 .art p {
-  color: burlywood;
+  color: black;
   font-size: xx-large;
 }
 img {

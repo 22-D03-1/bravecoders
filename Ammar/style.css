@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: "Macondo", cursive;
 }
 
 h1 {
@@ -22,4 +23,29 @@ li {
 p {
     font-size: 40px;
     color: black;
+    text-align: center;
+}
+
+.kaffee-blog {
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+.h2 {
+    padding-left: 15rem;
+}
+.h3 {
+    padding-left: 20rem;
+}
+.img {
+    margin-left: 15rem;
+    width: 400px;
+    border: 9px solid black;
+}
+
+a {
+    font-size: xx-large;
+}
+a:link,
+a:visited {
+    text-decoration: none;
 }
