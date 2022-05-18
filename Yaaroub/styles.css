@@ -51,11 +51,12 @@ ol li {
 nav {
   margin-bottom: 70px;
   margin-top: 20px;
-  text-align: center;
+  left: 35vw;
   background-color: rgba(0, 174, 255, 0.651);
-  width: 10cm;
   border-radius: 20px;
   margin: auto;
+  position: absolute;
+
 }
 nav a {
   color: aqua;
