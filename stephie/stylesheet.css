@@ -10,11 +10,11 @@ body {
 
 header {
   position: sticky;
+  overflow: hidden;
   top: 0;
   left: 0;
   right: 0;
-  background-image: url("wallpaperbetter\(36\).jpg");
-  background-attachment: fixed;
+  width: 100%;
 }
 
 h1 {
@@ -22,16 +22,24 @@ h1 {
   text-align: center;
 }
 
-nav {
+nav ul {
+  list-style: none;
   background-color: ghostwhite;
-  text-align: center;
   text-shadow: none;
+  text-align: center;
+  padding: 15px 20px;
+}
+
+nav li {
+  display: inline;
+  padding: 30px;
 }
 
 nav a {
   color: cadetblue;
+  font-size: 25px;
+  text-decoration: none;
   padding: 15px 45px;
-  display: inline-block;
 }
 
 nav a:hover {
@@ -39,7 +47,7 @@ nav a:hover {
   color: ghostwhite;
 }
 
-ul {
+div#con1 {
   font-size: 30px;
 }
 
@@ -59,17 +67,27 @@ div#con3 {
   background: inherit;
 }
 
+div#con4 {
+  padding: 10px 20px;
+}
+
 p {
   font-size: 25px;
 }
 
 footer {
+  background-color: ghostwhite;
   text-align: center;
-  position: fixed;
+  position: sticky;
+  overflow: hidden;
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
+  color: cadetblue;
 }
 
 footer p {
   font-size: 15px;
+  text-shadow: none;
 }
