@@ -7,32 +7,46 @@ font-family: 'Work Sans', sans-serif;
 } 
 body{
    
-background-color: rgb(102, 131, 87);
+background-color: rgb(255, 255, 255);
 padding-top: 80px;
 margin-bottom: 100px;
+padding: 50px;
 }
 .header {display: block;
     text-decoration: none;
-background-color: rgba(34, 34, 160, 0.801);
+background-color: rgba(133, 165, 170, 0.801);
 position: fixed;
 left: 0;
 width: 100%;
-margin-top: -80px;
-
+margin-top: -50px;
 z-index: 1;
 
 }
-
+h3  {
+    color: coral;
+}
+.mandi{
+    color: rgb(118, 156, 129);
+}
+.rezept {
+    color: blue;
+}
 h1 {
     text-align: center;
-    color: white;
+    color: rgb(100, 141, 50);
     transition: 0.3s;
+    text-shadow: 0 0 10px;
+   
+    margin: 20px;
+}
+h2 {
+    color: coral;
 }
  p {
-    color: rgb(180, 38, 38);
+    color: rgb(42, 112, 45);
 }
 .info p {
-    color: rgba(153, 205, 50, 0.617);
+    color: rgba(240, 71, 116, 0.617);
 }
 ul :hover {
  padding: 0;
@@ -50,14 +64,20 @@ a{
     display: block;
     color: white;
 }
-video{
+strong {
+    color: coral;
+}
+video {
     display: block;
 margin-left: auto;
 margin-right: auto;
-width: 80%;
-border-radius: 30px ;
+width: 60%;
+border-radius: 30px 30px;
 border-style: 30px solid  red;
 
+}
+#hoppy >.pool {
+  margin-top: 30px;
 }
 #hobby img{
     float: right;
@@ -67,9 +87,15 @@ border-style: 30px solid  red;
     border-radius: 50% 50%;
     outline: 5px dotted rgb(148, 84, 84);
 }
+#hobby >article>p {
+    color: rgb(101, 120, 173);
+}
 #hobby article , hr ,ul, .link {
     clear: both;
     
+}
+.buch {
+    margin-top: 30px;
 }
 .buch  img {
     border-radius: 20px;
@@ -80,18 +106,32 @@ border-style: 30px solid  red;
     border-radius: 50% 50%;
     outline: 5px dotted rgb(148, 84, 84);
 }
+form {
+    background-color: rgba(87, 230, 215, 0.48);
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+span {
+    color: rgb(206, 81, 81);
+}
 
 footer {
-    display: block;
-    background-color: rgb(40, 40, 218);
+
+    background-color: rgb(51, 184, 153);
   width: 100%;
   text-align: center;
   height: 70px;
 position: fixed;
 bottom: 0;
+left: 0;
 
-
+width: 100%;
     z-index: 1;
+}
+footer  li {
+    list-style: none;
 }
 footer  li ,h5 {
 color: rgb(192, 94, 94);

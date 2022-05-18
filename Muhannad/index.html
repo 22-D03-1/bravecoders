@@ -24,16 +24,19 @@
         <div class="info">
             <h2 id="über-mich">Über mich</h2>
             <p><i>1. Mein Name ist Muhannad</i></p>
-            <p><b>2.ich komme aus Syrien</b></p>
+            <p><i>2.ich komme aus Syrien</i></p>
         </div>
+        <br><br>
         <div class="link">
             <h3>Mein Lieblingessen</h3>
-            <p>Mein Lieblingsgericht ist Mandi-Reis.</p>
-            <p>
+            <p class="mandi">Mein Lieblingsgericht ist Mandi-Reis.</p>
+            <p class="mandi">
               <em>
                 Wenn Sie Mandi-Reis kochen möchten, finden Sie hier das
                 vollständige Mandi-Reis-Rezept mit den Zutaten. <br />Das Rezept
-                ist im folgenden Link: <br />Lorem ipsum dolor sit amet
+                ist im folgenden Link:  <br>  <a class="rezept" href="https://mdhyan99.github.io/Lieb-essen/ "
+                >Rezept</a
+            > Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Magnam dolorem provident illum,
                 similique optio eaque? Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Temporibus autem placeat deserunt nam
@@ -42,63 +45,47 @@
                 praesentium.
               </em>
             </p>
-            <a href="https://mdhyan99.github.io/Lieb-essen/ "
-                >Mein Lieb-essen</a
-            >
-
-            <article>
-                <p>
-                  <strong>
-                    Mein Lieblingsgericht ist der Mandi-Reis. <br />
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quaerat aliquid cum debitis distinctio quibusdam obcaecati?.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Cum veniam cumque, repellat quos ipsa, explicabo accusantium
-                    ad placeat veritatis voluptates sint aut eveniet
-                    necessitatibus atque? Veniam adipisci reiciendis fugit
-                    voluptates!<br />
-                    Wie man Mandi Reis zubereitet im nächsten Video:
-                  </strong>
-                </p>
+<br> <br>
+           <div class="video1">
+            <strong>
+                Wie man Mandi Reis zubereitet im nächsten Video:
+               </strong>
                 <video
                     controls
-                    width="900"
-                    height="600"
-                    poster="./images/reis.jpg"
-                >
+                    width="500"
+                    height="400"
+                    poster="./images/reis.jpg">
                     <source
                         src="./video/mandi-reis.mp4"
-                        type="video/mp4"
-                    />
+                        type="video/mp4"/>
                 </video>
-            </article>
+           </div>
         </div>
+        <br><br>
         <div id="hobby">
             <h4>Mein hobby</h4>
-
+            <div class="pool">
+                <img
+                width="200"
+                height="200"
+                src="./images/pool.jpg"
+                alt=""
+            />
+            <p>
+                Schwimmen: Schwimmen ist eines meiner liebsten Hobbies, ich
+                schwimme etwa zwei- bis dreimal pro Woche. <br />
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Similique veritatis dolor est nostrum maxime qui atque
+                praesentium. Id quo, ab quasi, voluptatem inventore ipsam a
+                ut mollitia quis nostrum odio? Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Voluptatibus, quidem! Ratione
+                velit dolorum minima alias?
+            </p>
+            </div>
             <article>
                 <img
-                    width="300"
-                    height="300"
-                    src="./images/pool.jpg"
-                    alt=""
-                />
-                <p>
-                    Schwimmen: Schwimmen ist eines meiner liebsten Hobbies, ich
-                    schwimme etwa zwei- bis dreimal pro Woche. <br />
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Similique veritatis dolor est nostrum maxime qui atque
-                    praesentium. Id quo, ab quasi, voluptatem inventore ipsam a
-                    ut mollitia quis nostrum odio? Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Voluptatibus, quidem! Ratione
-                    velit dolorum minima alias?
-                </p>
-            </article>
-
-            <article>
-                <img
-                    width="300"
-                    height="300"
+                    width="200"
+                    height="200"
                     src="./images/pflanzen.jpg"
                     alt=""
                 />
@@ -122,8 +109,8 @@
             <div class="buch">
                 <img
                     src="./images/bücher.jpg"
-                    width="300"
-                    height="300"
+                    width="200"
+                    height="200"
                     alt=""
                 />
 
@@ -136,7 +123,36 @@
                     explicabo, assumenda sed esse sit vitae? In tenetur magni
                     fugiat excepturi id, optio non eum at vel. Ex! earum porro
                     quia suscipit!
-                </p>
+                </p> <hr>
+                <form action="https://formspree.io/f/mdobyjav" method="post" target="_blank">
+                    <span>Für andere Essenrezept kontakt uns:</span>
+                    <br><br>
+                    <label for="">
+                        Vorname
+                        <input type="text" name="Vorname" placeholder="Vorname">
+                    </label>
+                    <br><br>
+                    <label for="">
+                        Nachname
+                        <input type="text" name="Nachname" placeholder="Nachname">
+                    </label>                    
+                    <br/>
+                    <br/>
+                    <label for="">
+                        Email
+                        <input type="email" name="Email" placeholder="Ihre E-mail">
+                    </label>
+                    <br><br>
+                    <label>
+                        Essen-Wunsch: <br/>
+                        <textarea name="Nachricht" placeholder="Welche Rezept  Ihre Essen-Wunsch "cols="20" rows="10"></textarea>
+                    </label>
+                    
+                    <br/>
+                    <br/>
+                    <button id="button-1" type="submit">Senden</button>
+                    <button id="button-2" type="reset">Reset</button>
+                </form>
                 <footer>
                     <h5>Beste Book</h5>
                     <ul>
