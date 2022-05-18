@@ -46,12 +46,92 @@
           </li>
         </ul>
       </section>
+      <br><br><br>
       <section>
-        <img
+        <h2 class="headerform">Bitte füllen Sie das folgende Formular aus, um meine Seite zu abonnieren!</h2>
+        <form action="https://formspree.io/f/moqrybee" method="post">
+            <div class="vorname">
+                <label>
+                    Vorname:
+                    <input name="Vorname" type="text" placeholder="Vorname eingeben" required />
+                </label>
+            </div>
+            <br>
+            <div class="nachname">
+                <label for="nachname">Nachname:</label>
+                <input name="Nachname" type="text" placeholder="Nachname eingeben">
+            </div>
+            <br />
+            <div class="alter">
+                <label>
+                    Alter:
+                    <input name="Alter" type="number" min="18" placeholder="Alter eingeben" required />
+                </label>
+            </div>
+            <br>
+            <div class="tel">
+                <label for="tel">Telefon:</label>
+                <input name="tel" type="tel" placeholder="Telefon eingeben" required>
+            </div>
+            <br />
+            <div class="glücklich">
+                <label for="glücklich">Wie glücklich bist du heute?</label>
+                <input name="glücklich" type="range">
+            </div>
+            <br>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input name="email" type="email" placeholder="Email eingeben" required>
+            </div>
+            <br>
+            <div class="password">
+                <label for="password">Password:</label required>
+                    <input name="Password" type="password" placeholder="Password eingeben">
+            </div>
+            <br>
+            <div class="farbe">
+                <label for="Farbe">Deine Lieblingsfarbe:</label>
+                <br>
+                <input name="renk" type="radio" checked>Rot
+                <input name="renk" type="radio">Grün
+                <input name="renk" type="radio">Gelb
+                <input name="renk" type="radio">Blau
+                <input name="renk" type="radio">Orange
+                
+            </div>
+            <br>
+            <div class="nachricht">
+                <label>
+                    Deine Nachricht:
+                    <textarea name="Nachricht" placeholder="An uns" required></textarea>
+                </label>
+            </div>
+            <br />
+            <div class="tier">
+                <label>
+                    Dein Lieblingstier:
+                    <select name="Lieblingstier" required>
+                        <option value="Katze">Katze</option>
+                        <option value="Hund">Hund</option>
+                        <option value="Tiger" selected>Tiger</option>
+                        <option value="Bär">Bär</option>
+                    </select>
+                </label>
+            </div>
+            <br />
+            <div class="button">
+                <button type="submit">Absenden</button>
+                <button type="reset">Resetten</button>
+            </div>
+        </form>
+      </section>
+      <br><br>
+      <section>
+        <a href="./blog.html"><img class="alone"
           src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXN0cm9uYXV0fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
           alt="alone in space"
           width="600px"
-        />
+        /></a>
       </section>
       <br />
       <section class="hauptseite">

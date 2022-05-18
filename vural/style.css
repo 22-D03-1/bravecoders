@@ -50,3 +50,46 @@ h2 {
 .wikipedia h2 {
   font-size: 2em;
 }
+
+form {
+  width: 400px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 40px 40px 40px;
+  font-size: larger;
+  color: #C2B49B;
+  border: solid 5px chocolate;
+}
+
+button {
+  width: 45%;
+  margin: 8px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #AEBEA1;
+}
+
+button:nth-child(2) {
+  background-color: #D5B741;
+}
+
+select, textarea, .password input, .email input, .tel input, .alter input, .vorname input, .glücklich input, .nachname input {
+  width: 100%;
+  height: 30px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.alone {
+  width: 100%;
+  height: 800px;
+}
+
+.headerform {
+  text-align: center;
+  width: 100%;
+  font-size: x-large;
+}
