@@ -75,5 +75,76 @@
                 </section>
             </section>
         </section>
+        <br />
+        <footer>
+            <h1>Kontaktformular</h1>
+
+            <p>
+                <i>Anbei Formular bitte ausfüllen um mich zu kontaktieren</i>
+            </p>
+            <br />
+            <form action="https://formspree.io/f/xyyolvey">
+                <label>
+                    Dr./Prof.:
+                    <input type="text" name="Dr./Prof" placeholder="Dr./Prof" />
+
+                    <br />
+                </label>
+                <label>
+                    Vorname:
+                    <input
+                        type="text"
+                        name="vorname"
+                        placeholder="Vorname"
+                        required
+                    />
+                    <br />
+                </label>
+                <label>
+                    Nachname:
+                    <input
+                        type="text"
+                        name="nachname"
+                        placeholder="Nachname"
+                        required
+                    />
+                    <br />
+                </label>
+                <label>
+                    Telefonnummer:
+                    <input
+                        type="tel"
+                        name="Telefonnummer"
+                        placeholder="089-67626-3762"
+                        required
+                    />
+                    <br />
+                </label>
+                <label>
+                    Email:
+                    <input
+                        type="email"
+                        name="Email"
+                        placeholder="max.muster@gmail.com"
+                        required
+                    />
+                    <br />
+                    <br />
+                    Nachricht:
+                    <textarea
+                        name="Nachricht"
+                        id=""
+                        cols="30"
+                        rows="10"
+                        required
+                    ></textarea>
+                </label>
+                <br />
+                <br />
+                <button id="zuruecksetzen" type="reset">Zurücksetzen</button>
+
+                <button id="abschicken" type="submit">Abschicken</button>
+            </form>
+        </footer>
     </body>
 </html>
