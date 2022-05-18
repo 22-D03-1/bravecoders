@@ -250,6 +250,23 @@ input[type="submit"]:hover {
 
 }
 
+
+form{
+    
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.788);
+    border-radius: 15px;
+    width: 50%;margin: auto;
+    padding:  70px;
+    margin-top: 50px;
+    border: 100%;
+   
+ }
+
+
+
+
+
 .footer {
     position: fixed;
     left: 0;
