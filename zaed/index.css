@@ -1,0 +1,40 @@
+body {
+  color: whitesmoke;
+  background-image: url(https://fastly.4sqi.net/img/general/width960/ObYsniEy3P_pLpepkEW84gXAI4QvfmLVdfTTbRqRAUk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 550px;
+
+  display: inline-block;
+
+  font-size: xx-large;
+}
+
+.First {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+.Second {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Third {
+  font-style: italic;
+}
+a:hover {
+  color: yellow;
+  background-color: black;
+}
+.Forth {
+  font-family: "Courier New", Courier, monospace;
+  border: 10px;
+}
+.ziga {
+  border: 15px;
+  border-color: brown;
+  border-style: groove;
+}
+iframe {
+  width: 1000px;
+}
