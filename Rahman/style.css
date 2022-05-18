@@ -96,10 +96,21 @@ header {
 
 /* Home section */
 
+#home {
+    height: 85vh;
+}
 .name-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 20px;
 }
-
+.name {
+    font-size: 72px;
+    width: 650px;
+    margin: auto;
+    height: 150px;
+}
 span {
     display: none;
     font-family: 'Roboto Mono', monospace;
