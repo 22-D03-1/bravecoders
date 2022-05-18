@@ -26,33 +26,42 @@
      
       
       <h2>Über mich</h2>
-      <section>
+      <section class="ubermich">
 
-        <p>Ich komme aus <i>Venezuela</i>. Ich bin 37 Jahre Alt. <br>Seit 2017 wohne ich in Bayern.</p>
         <img class="profilbild" src="./MarcelProfilbild.jpg" alt="MarcelJaworskiCinematography" width="300";>
-        <h3>Fähigkeiten</h3>
+        <br><br>
+        <p>Ich komme aus <i>Venezuela</i>. Ich bin 37 Jahre Alt. Seit 2017 wohne ich in Bayern.</p>
+        <br>
         
-        <ul>
-          <li>Photograph</li>
-          <li>Bild -Video bearbeitung</li>
+        
+        <h3>Fähigkeiten</h3>
+          <ul>
+            <li>Jongler</li>
+            <li>Photograph</li>
+            <li>Bild -Video bearbeitung</li>
               <ol>
                 <li>Photshop</li>
                 <li><em>Adobe</em>Premiere</li>
                 <li>Finalcut</li>
               </ol>
-          <li>Jongler</li>
-        </ul>
+            <li>Webentwickler</li>  
+            
+          </ul>
+          <br>
+          
         <h3>Hobbys</h3>
-        <ul>
-          <li>Fahrrad Fahren</li>
-          <li>Klettern</li>
-        </ul>
+          <ul>
+            <li>Fahrrad Fahren</li>
+            <li>Klettern</li>
+          </ul>
+          <br>
         <h3>Sprachen</h3>
-        <ul>
-          <li>Spanisch</li>
-          <li>Deutsch</li>
-          <li>Englisch</li>
-        </ul>
+          <ul>
+            <li>Spanisch</li>
+            <li>Deutsch</li>
+            <li>Englisch</li>
+          </ul>
+          <br>
       </section>
       <h2>Gallery</h2>
       <section class="gallery">
@@ -96,29 +105,61 @@
       <section>
         
         <iframe width="640" height="480"src="https://www.youtube.com/watch?v=gaa532UpDZk"></iframe>
-        <p>Vielen Dank für Ihren Besuch!</p>
+        
+      </section>
+      <h2>Kontakt</h2>
+      <section class="form">
+        <form 
+        action="https://formspree.io/f/xwkyazlr"
+        method="post">
+          <label>
+            Vorname:
+            <input type="text"name="vorname"placeholder="Vorname"required>
+          </label>
+          <br>
+          <label>
+            Nachname:
+            <input type="text"name="nachname"placeholder="Nachname"required>
+          </label>
+          <br>
+          <label>
+            Ihre Nachricht:
+            <br>
+            <textarea name="message" placeholder="An mir" cols="30" rows="10"required></textarea>
+          </label>
+          <br>
+          <label>
+            Wofur Interessieren Sie sich:
+            <select name="dienst" required>
+              <option value="jongler">Jongler</option>
+              <option value="fotograf">Fotograf</option>
+              <option value="videobearbeitung">Foto -Videobearbeitung</option>
+              <option value="developer">Webentwickler</option>
+            </select>
+          </label>
+          <br>
+          <button type="submit">Absenden</button>
+          <button type="reset">resetten</button>
+        </form>
       </section>
 
-      <footer>
-       
-        <ul>
-          
-          <li>
-            <a href="https://www.instagram.com/marcel.jaworski/?hl=es" target="_blank">Meine Bilder auf Instagram</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/c/MarcelJaworskiCinematography/videos" target="_blank">Meine Videos auf Youtube</a>
-          </li>
-          <li>
-            <a href="mailto:jaworskimarcel@gmail.com">Send Email</a>
-          </li>
-        </ul>
-      
-       
-      
-
-      </footer>
+     
      
     </main>
+    <footer>
+       
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/marcel.jaworski/?hl=es" target="_blank">Meine Bilder auf Instagram</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/c/MarcelJaworskiCinematography/videos" target="_blank">Meine Videos auf Youtube</a>
+        </li>
+        <li>
+          <a href="mailto:jaworskimarcel@gmail.com">Send Email</a>
+        </li>
+      </ul>
+
+    </footer>
   </body>
 </html>
