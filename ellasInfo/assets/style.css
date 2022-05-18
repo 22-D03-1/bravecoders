@@ -212,7 +212,6 @@ a {
   font-family: "Roboto", sans-serif;
   text-shadow: 0.05rem 0.05rem lightsteelblue;
   color: black;
-  line-height: 2em;
   /* padding: 0.5rem; */
 }
 .picAboutMe1,
@@ -270,109 +269,4 @@ a {
   text-transform: uppercase;
   text-shadow: 0.07rem 0.07rem rgb(152, 48, 48);
   font-family: "Orelega One", cursive;
-}
-#askMe {
-  /* border: 5px solid black; */
-  height: 100vh;
-  margin: 1rem;
-  padding: 1rem;
-  background: linear-gradient(
-      to top,
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url(../assets/img/Moldova_logo_pantone_vertical_overblack.jpg);
-  background-size: cover;
-  background-position: 0% 75%;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  position: relative;
-}
-.container {
-  position: absolute;
-  top: 60px;
-  left: 77%;
-  padding: 4rem;
-  border: 0.5rem solid rgb(75, 73, 73);
-  border-radius: 5rem;
-  background: rgb(68, 68, 68);
-  background: linear-gradient(
-    0deg,
-    rgba(68, 68, 68, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-}
-
-.container h2 {
-  color: #444;
-
-  text-align: center;
-  font-size: 3rem;
-  padding: 2rem;
-  letter-spacing: 0.3rem;
-  font-family: "Orelega One", cursive;
-}
-
-label {
-  display: block;
-  margin: 1rem;
-  width: 50px;
-  position: relative;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-align: center;
-  color: black;
-  font-family: "Orelega One", cursive;
-}
-
-.container input {
-  padding: 0.7rem;
-  border: 2px solid rgb(21, 23, 24);
-  box-shadow: 5px 5px 25px white;
-}
-textarea {
-  border: 2px solid rgb(21, 23, 24);
-  box-shadow: 5px 5px 25px white;
-}
-button {
-  color: black;
-  background: rgb(68, 68, 68);
-  background: linear-gradient(
-    0deg,
-    rgba(68, 68, 68, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  padding: 1.5rem;
-
-  border-radius: 2rem;
-  box-shadow: 5px 5px 15px 5px white;
-  font-weight: 2rem;
-  font-size: 1.3rem;
-  margin: 0.5rem;
-}
-
-button:hover {
-  transform: scale(1.2);
-  transition: 2000ms;
-}
-#askMe h1 {
-  margin-left: 8%;
-  font-size: 5rem;
-  font-weight: 900;
-  font-family: "Orelega One", cursive;
-  color: #444;
-}
-
-.askMeText {
-  display: block;
-  width: 70%;
-}
-.askMeText p {
-  text-align: justify;
-  margin: 1em;
-  font-size: 1.5em;
-  font-family: "Roboto", sans-serif;
-  text-shadow: 0.05rem 0.05rem lightsteelblue;
-  color: black;
-  line-height: 2em;
 }

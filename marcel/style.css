@@ -1,0 +1,16 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+section {
+    background-color: #F2F2F2;
+}
+
+.blog {
+    background-color:#F2F2F2;
+}
+h1{
+    text-shadow : 5px 10px 2px #8C8C8C,-3px 20px 5px #BFBFBF;
+}
