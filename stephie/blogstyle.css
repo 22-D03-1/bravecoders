@@ -33,6 +33,18 @@ nav a:hover {
   color: ghostwhite;
 }
 
+span {
+  color: ghostwhite;
+  font-size: 115px;
+  line-height: 0.1em;
+  opacity: 0.4;
+}
+div#con3 {
+  padding: 10px 20px;
+  background: inherit;
+  font-size: 25px;
+}
+
 footer {
   text-align: center;
   position: fixed;

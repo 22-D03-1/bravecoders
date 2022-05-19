@@ -48,28 +48,14 @@ nav a:hover {
   color: ghostwhite;
 }
 
-div#con1 {
-  font-size: 30px;
+aside {
+  font-size: 25px;
+  float: right;
 }
 
 div#con2 {
   padding: 10px 40px;
   margin-bottom: 30px;
-}
-
-span {
-  color: ghostwhite;
-  font-size: 115px;
-  line-height: 0.1em;
-  opacity: 0.4;
-}
-div#con3 {
-  padding: 10px 20px;
-  background: inherit;
-}
-
-div#con4 {
-  padding: 10px 100px;
 }
 
 p {
@@ -79,7 +65,7 @@ p {
 footer {
   background-color: ghostwhite;
   text-align: center;
-  position: sticky;
+  position: fixed;
   overflow: hidden;
   bottom: 0;
   left: 0;
