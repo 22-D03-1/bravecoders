@@ -9,6 +9,7 @@ body {
 }
 
 header {
+  font-family: "Fredericka the Great", cursive;
   background: inherit;
   position: sticky;
   overflow: hidden;
@@ -16,6 +17,10 @@ header {
   left: 0;
   right: 0;
   width: 100%;
+}
+
+header img {
+  margin-left: 10px;
 }
 
 h1 {
@@ -57,7 +62,7 @@ aside {
 
 div {
   padding: 10px 40px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   background: inherit;
 }
 
