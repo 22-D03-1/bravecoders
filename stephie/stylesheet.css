@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   font-family: "Courier New", Courier, monospace;
   color: ghostwhite;
-  text-shadow: 2px 2px 7px #111111;
+  text-shadow: 2px 2px 7px #000000;
   margin: 0;
   padding: 0;
 }
@@ -51,11 +51,17 @@ nav a:hover {
 aside {
   font-size: 25px;
   float: right;
+  padding: 15px;
+  background: inherit;
 }
 
-div#con1 {
+div {
   padding: 10px 40px;
   margin-bottom: 30px;
+  background: inherit;
+}
+
+#art1 {
 }
 
 h2 {
