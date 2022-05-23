@@ -28,12 +28,17 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 nav ul {
   list-style: none;
   background-color: ghostwhite;
   text-shadow: none;
   text-align: center;
   padding: 15px 20px;
+  margin-bottom: 0px;
 }
 
 nav li {
@@ -56,21 +61,25 @@ nav a:hover {
 aside {
   font-size: 25px;
   float: right;
-  padding: 15px;
+  padding: 25px;
   background: inherit;
 }
 
-div {
+aside img {
+  width: 120px;
+  height: 170px;
+}
+
+div#con1 {
   padding: 10px 40px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background: inherit;
 }
 
-#art1 {
-}
-
-h2 {
-  font-size: 30px;
+div#con2 {
+  padding: 10px 40px;
+  margin-bottom: 40px;
+  background: inherit;
 }
 
 p {
