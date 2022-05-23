@@ -3,12 +3,20 @@ body {
   background-repeat: no-repeat;
   font-family: "Courier New", Courier, monospace;
   color: ghostwhite;
-  text-shadow: 2px 2px 7px #111111;
+  text-shadow: 2px 2px 7px hsl(0, 0%, 0%), 2px 2px 7px hsl(0, 0%, 19%);
   margin: 0;
+  padding: 0;
 }
 
 header {
-  height: 100px;
+  font-family: "Fredericka the Great", cursive;
+  background: inherit;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
 h1 {
@@ -16,20 +24,29 @@ h1 {
   text-align: center;
 }
 
-nav {
+nav ul {
+  list-style: none;
   background-color: ghostwhite;
-  text-align: center;
   text-shadow: none;
+  text-align: center;
+  padding: 15px 20px;
+  margin-bottom: 0px;
+}
+
+nav li {
+  display: inline;
+  padding: 30px;
 }
 
 nav a {
   color: cadetblue;
+  font-size: 25px;
+  text-decoration: none;
   padding: 15px 45px;
-  display: inline-block;
 }
 
 nav a:hover {
-  background-color: cadetblue;
+  background-color: hsl(182, 25%, 50%);
   color: ghostwhite;
 }
 
@@ -46,13 +63,18 @@ div#con3 {
 }
 
 footer {
+  background-color: ghostwhite;
   text-align: center;
   position: fixed;
-  left: 0;
+  overflow: hidden;
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
+  color: cadetblue;
 }
 
 footer p {
   font-size: 15px;
+  text-shadow: none;
 }
