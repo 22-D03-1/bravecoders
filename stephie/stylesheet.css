@@ -1,9 +1,11 @@
 body {
-  background-image: url("wallpaperbetter\(36\).jpg");
-  background-repeat: no-repeat;
+  background-image: url("wallpaperbetter(36).jpg");
+  background-position: left top;
   font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
   color: ghostwhite;
-  text-shadow: 2px 2px 7px hsl(0, 0%, 0%), 2px 2px 7px hsl(0, 0%, 19%);
+  text-shadow: 2px 2px 7px hsl(0, 0%, 0%), 2px 2px 7px hsl(0, 0%, 19%),
+    2px 2px 7px hsl(0, 0%, 19%);
   margin: 0;
   padding: 0;
 }
@@ -48,7 +50,6 @@ nav li {
 
 nav a {
   color: cadetblue;
-  font-size: 25px;
   text-decoration: none;
   padding: 15px 45px;
 }
@@ -60,7 +61,6 @@ nav a:hover {
 
 aside {
   margin-top: 0px;
-  font-size: 25px;
   float: right;
   padding: 25px;
   background: inherit;
@@ -72,18 +72,14 @@ aside img {
 }
 
 div#con1 {
-  padding: 10px 40px;
-}
-
-p {
-  font-size: 25px;
+  display: flex;
+  padding: 25px 40px 35px 40px;
 }
 
 footer {
   background-color: ghostwhite;
   text-align: center;
   position: fixed;
-  overflow: hidden;
   bottom: 0;
   left: 0;
   right: 0;
